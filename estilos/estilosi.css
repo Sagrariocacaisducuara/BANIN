@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.logo{
+    position: absolute;
+    max-width: 45px;
+    left: 23px;
+    top: 9px;
+    z-index: 2;
+}
+header{
+    display: flex;
+    background-color: #39A900;
+    justify-content: right;
+    align-items: center;
+    height: 65px;
+    padding: 5px 10%;
+}
+.menu-principal{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 79px;
+}
+.menu-principal>li>a{
+    display: block;
+    padding: 19px 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+}
+.menu-principal>li>a:hover{
+   background-color: green;
+}
+.boton_ir {
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: -75px;
+    border-radius: 5px;
+}
+a .boton_ir:hover {
+    text-decoration: underline;
+}
+.contenedor {
+    display: flex;
+    height: 100%;
+}
+.imagen-contenedor {
+    flex: 2;
+    background-image: url('../imagenes/imagen.avif');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.formulario {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.logof {
+    width: 100px;
+    position: relative;
+    top: -306px;
+}
+.login-form {
+    width: 100%;
+    max-width: 300px;
+    margin-top: -203px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    outline: none;
+    font-size: 13px;
+}
+input:focus{
+    border: 1px solid #39A900;
+}
+input[type="submit"] {
+    background-color: #39A900;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+h1 {
+    margin-bottom: 20px;
+}
