@@ -61,16 +61,16 @@
 </head>
 <body>
     <header>
-    <a href="index.php"><img class="logo" src="imagenes/logo-sena-blanco.png" alt=""></a> 
+    <a href="index.html"><img class="logo" src="imagenes/logo-sena-blanco.png" alt=""></a> 
        <nav class="menu">
        <ul class="menu-principal">
             <li><a href="">Candidatos</a></li>
-            <li><a href="BANIN/Evaluar/Evaluacion.php">Proceso de Evaluación</a></li>
+            <li><a href="BANIN/Evaluar/Evaluacion.html">Proceso de Evaluación</a></li>
             <li><a href="">Criterios</a></li>
             <li><a href="">Seleccionados</a></li>
         </ul>
        </nav>
-       <a href="BANIN/iniciarsesion.php"><button class="boton_ir">Iniciar sesión</button></a>
+       <a href="BANIN/iniciarsesion.html"><button class="boton_ir">Iniciar sesión</button></a>
     </header>
     <div class="contenedor">
         <div class="slidershow middle">

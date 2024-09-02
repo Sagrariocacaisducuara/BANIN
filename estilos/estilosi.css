@@ -53,8 +53,9 @@ a .boton_ir:hover {
     text-decoration: underline;
 }
 .contenedor {
-    display: flex;
-    height: 100%;
+    /* display: flex; */
+    /* height: 100%; */
+    width: 100%;
 }
 .imagen-contenedor {
     flex: 2;
