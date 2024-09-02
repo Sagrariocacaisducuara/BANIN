@@ -52,10 +52,141 @@ header{
 a .boton_ir:hover {
     text-decoration: underline;
 }
+#banner{
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+.slider{
+    margin: auto;
+    position: relative;
+    top: 0px;
+    height: 578px;
+    overflow: hidden;
+    /*border: 15px solid white;
+    box-shadow: 0 10px 15px 10px #000000;*/
+}
+.section_caja{
+    width: 100%;
+}
+.img_caja{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.arrow{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 35%;
+    transform: translateY(50%);
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+    cursor: pointer;
+    margin: 16px;
+}
+.left{
+    left: 10px;
+}
+.right{
+    right: 10px;
+}
+.btn_atras,.btn_siguiente{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 35%;
+    transform: translateY(50%);
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+    cursor: pointer;
+    margin: 16px;
+}
+.btn_atras{
+    left: 10px;
+}
+.btn_siguiente{
+    right: 10px;
+}
+.texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.logo{
+    position: absolute;
+    max-width: 45px;
+    left: 23px;
+    top: 9px;
+    z-index: 2;
+}
+header{
+    display: flex;
+    background-color: #39A900;
+    justify-content: right;
+    align-items: center;
+    height: 65px;
+    padding: 5px 10%;
+}
+.menu-principal{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 79px;
+}
+.menu-principal>li>a{
+    display: block;
+    padding: 19px 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+}
+.menu-principal>li>a:hover{
+   background-color: green;
+}
+.boton_ir {
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: -75px;
+    border-radius: 5px;
+}
+a .boton_ir:hover {
+    text-decoration: underline;
+}
 /*-----------Slider---------------*/
+/*
 .slidershow{
     width:100%;
-    height:86.3vh;
+    height:76.3vh;
     overflow: hidden;
 }
 .middle{
@@ -145,7 +276,7 @@ footer{
     color: white;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
-    padding: 20px;
+    /*padding: 20px;
     border-radius: 10px;
 }
 .column ul{
@@ -165,7 +296,7 @@ footer{
     height: 335px;;
     /*position: relative;
     top: 270px;*/
-    margin-left: 10px;
+    /*margin-left: 10px;
     border: 1px solid #39A900;
     box-shadow: 4px 4px 3px rgb(97, 97, 97);
 }
@@ -175,4 +306,4 @@ footer{
 }
 .contenido_desc h3{
     color: green;
-}
+}*/
