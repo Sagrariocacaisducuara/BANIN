@@ -17,6 +17,7 @@
             <li><a href="Evaluar/Evaluacion.php">Proceso de Evaluación</a></li>
             <li><a href="">Criterios</a></li>
             <li><a href="">Seleccionados</a></li>
+            <li><a href="/BANIN/evaluador/moduloConsulta.html">Consulta</a></li>
         </ul>
        </nav>
        <a href="iniciarsesion.php"><button class="boton_ir">Iniciar sesión</button></a>
