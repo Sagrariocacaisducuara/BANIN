@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-<<<<<<< HEAD
-
-.contenedor {
-    max-width: 500px;
-    margin: 20px auto;
-=======
 *{
     margin: 0;
     padding: 0;
@@ -75,51 +69,29 @@ a .boton_ir:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
->>>>>>> eb61c463c5e92fb2a82b10ce9c93c9c922bbb0d5
     padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    height: 85vh;
 }
-
 .logof {
-    width: 80px;
-    margin: 0 auto 20px;
-    display: block;
+    width: 100px;
+    position: relative;
+    top: -306px;
 }
-
 .login-form {
     width: 100%;
+    max-width: 300px;
+    margin-top: -203px;
 }
-<<<<<<< HEAD
-
-.formulario label {
-=======
 .formulario label{
     border:solid 1px rgb(167,167,167);
     background-color: #f4f4f4;
     margin-bottom: 23px;
->>>>>>> eb61c463c5e92fb2a82b10ce9c93c9c922bbb0d5
     display: flex;
     align-items: center;
-    border: solid 1px rgb(167, 167, 167);
     margin-bottom: 15px;
     border-radius: 5px;
-    padding: 10px 12px;
+    padding: 0 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-<<<<<<< HEAD
-    background-color: #f9f9f9;
-    transition: border 0.3s ease, box-shadow 0.3s ease;
-=======
->>>>>>> eb61c463c5e92fb2a82b10ce9c93c9c922bbb0d5
 }
-
-.formulario label:focus-within {
-    border: 1px solid #39A900;
-    box-shadow: 0 0 5px rgba(57, 169, 0, 0.5);
-}
-
 .formulario label input {
     background-color: #f4f4f4;
     width: 100%;
@@ -127,15 +99,16 @@ a .boton_ir:hover {
     padding: 8px;
     outline: none;
     color: #333;
-    background: transparent;
+    font-family: 'Source Sans 3', sans-serif;
     font-size: 15px;
 }
-
-.formulario label i {
-    color: #4b4b4b;
-    margin-right: 10px;
+.formulario label:focus-within {
+    border: 1px solid #39A900; /* Cambia el borde del label */
+    box-shadow: 0 0 5px rgba(57, 169, 0, 0.5); /* Agrega un efecto de sombra si lo deseas */
 }
-
+.formulario label i{
+    color: #4b4b4b;
+}
 .formulario input[type="submit"] {
     width: 100%;
     background-color: #39A900;
@@ -145,21 +118,10 @@ a .boton_ir:hover {
     cursor: pointer;
     font-weight: bold;
     font-size: 18px;
-    padding: 10px;
+    padding: 7px;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
-
-.formulario input[type="submit"]:hover {
-    background-color: #2e7a00;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-#togglePassword {
-    cursor: pointer;
-}
-
-#togglePassword.fa-eye-slash {
-    color: #39A900; /* Cambia el color cuando se muestra la contraseña */
+h1 {
+    margin-bottom: 20px;
 }
