@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<<<<<<< HEAD:app/evaluador/moduloConsulta.html
     <link rel="icon" href="assets/img/logos/logoSena_2.png">
     <link rel="stylesheet" href="/assets/css/moduloConsulta.css">
    
@@ -34,14 +35,28 @@
     </header>
 
     <div class="contenedor">
+=======
+    <link rel="icon" href="../../assets/img/logos/logosena.png">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+   
+</head>
+<body>
+<header>
+<a href="../../index.php"><img class="logo" src="../../assets/img/logos/logo-sena-blanco.png" alt=""></a> 
+    <?php
+        require '../../assets/header.php';
+    ?>
+</header>
+    <div class="contenedor1">
+>>>>>>> eb61c463c5e92fb2a82b10ce9c93c9c922bbb0d5:app/evaluador/moduloConsulta.php
         <div class="buscador">
             <h2>Buscador</h2>
             <form>
                 <label for="codigo">Buscar por código:</label>
-                <input type="text" id="codigo" name="codigo" placeholder="Ejemplo: 3453"><br><br>
+                <input type="text" id="codigo" class="codigo" name="codigo" placeholder="Ejemplo: 3453"><br><br>
 
                 <label for="documento">Buscar por número de documento:</label>
-                <input type="text" id="documento" name="documento" placeholder="Ejemplo: 1073672380"><br><br>
+                <input type="text" id="documento" name="documento" class="codigo" placeholder="Ejemplo: 1073672380"><br><br>
 
                 <button class="perfil-btn" type="submit">Buscar</button>
             </form>

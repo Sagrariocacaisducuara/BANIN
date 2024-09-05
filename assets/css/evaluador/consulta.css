@@ -1,3 +1,23 @@
+<<<<<<< HEAD:assets/css/evaluador/consulta.css
+=======
+/*estilos generales*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.contenedor1 {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+>>>>>>> eb61c463c5e92fb2a82b10ce9c93c9c922bbb0d5:assets/css/evaluador/styleConsulta.css
 /*estilo del formulario*/
 .buscador {
     margin-bottom: 20px;
@@ -13,7 +33,7 @@ label {
     margin-top: 10px;
 }
 
-input[type="text"] {
+input[type="text"].codigo{
     width: 100%;
     padding: 10px;
     margin: 5px 0;

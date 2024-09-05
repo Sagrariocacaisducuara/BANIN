@@ -1,8 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+<<<<<<< HEAD
 
 .contenedor {
     max-width: 500px;
     margin: 20px auto;
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.logo{
+    position: absolute;
+    max-width: 45px;
+    left: 23px;
+    top: 9px;
+    z-index: 2;
+}
+header{
+    display: flex;
+    background-color: #39A900;
+    justify-content: right;
+    align-items: center;
+    height: 65px;
+    padding: 5px 10%;
+}
+.menu-principal{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 79px;
+}
+.menu-principal>li>a{
+    display: block;
+    padding: 19px 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+}
+.menu-principal>li>a:hover{
+   background-color: green;
+}
+.boton_ir {
+    padding: 8px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: -75px;
+    border-radius: 5px;
+}
+a .boton_ir:hover {
+    text-decoration: underline;
+}
+.contenedor2{
+    display: flex;
+    height: 100%;
+}
+.imagen-contenedor {
+    flex: 2;
+    background-image: url('../../img/corporativas/imagen.avif');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.formulario {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+>>>>>>> eb61c463c5e92fb2a82b10ce9c93c9c922bbb0d5
     padding: 20px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -19,8 +92,15 @@
 .login-form {
     width: 100%;
 }
+<<<<<<< HEAD
 
 .formulario label {
+=======
+.formulario label{
+    border:solid 1px rgb(167,167,167);
+    background-color: #f4f4f4;
+    margin-bottom: 23px;
+>>>>>>> eb61c463c5e92fb2a82b10ce9c93c9c922bbb0d5
     display: flex;
     align-items: center;
     border: solid 1px rgb(167, 167, 167);
@@ -28,8 +108,11 @@
     border-radius: 5px;
     padding: 10px 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
     background-color: #f9f9f9;
     transition: border 0.3s ease, box-shadow 0.3s ease;
+=======
+>>>>>>> eb61c463c5e92fb2a82b10ce9c93c9c922bbb0d5
 }
 
 .formulario label:focus-within {
@@ -38,6 +121,7 @@
 }
 
 .formulario label input {
+    background-color: #f4f4f4;
     width: 100%;
     border: none;
     padding: 8px;

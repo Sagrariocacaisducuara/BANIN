@@ -1,4 +1,14 @@
 .contenedor {
+<<<<<<< HEAD
+=======
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+#banner{
+    position: relative;
+    margin: auto;
+>>>>>>> eb61c463c5e92fb2a82b10ce9c93c9c922bbb0d5
     width: 100%;
     max-width: 3200px;
     margin: 0 auto;
@@ -13,6 +23,15 @@
     top: 0;
     height: 600px;
     overflow: hidden;
+<<<<<<< HEAD
+=======
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+>>>>>>> eb61c463c5e92fb2a82b10ce9c93c9c922bbb0d5
 }
 
 .section_caja {
@@ -22,11 +41,64 @@
 .img_caja {
     display: block;
     width: 100%;
+<<<<<<< HEAD
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
     margin-bottom: 20px;
+=======
+    height: auto;
+>>>>>>> eb61c463c5e92fb2a82b10ce9c93c9c922bbb0d5
 }
 .titulo{
     background-color: #00ac00;
     color: white;
     text-align: center;
+<<<<<<< HEAD
 }
+=======
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.boxes{
+    display: flex;
+    justify-content:space-evenly;
+}
+.desc{
+    margin-top: 55px;
+    margin-bottom: 45px;
+    width: 28%;
+    height: auto;
+    background-color: white;
+    border: 1px solid #39A900;
+    padding: 15px 27px;
+    font-size: 17px;
+}
+.desc h2{
+    color: green;
+}
+.desc button{
+    border: none;
+    background-color: #39A900;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 23px;
+    width: 64px;
+}
+.desc button a{
+    color: white;
+    text-decoration: none;
+}
+.desc button a:hover{
+    text-decoration: underline;
+}
+footer{
+    margin-top: 45px;
+    background-color: #39A900;
+    text-align: center;
+    font-size: 19px;
+    color: black;
+}
+footer a{
+    color: black;
+}
+>>>>>>> eb61c463c5e92fb2a82b10ce9c93c9c922bbb0d5
