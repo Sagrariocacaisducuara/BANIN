@@ -30,9 +30,23 @@
                 <input type="password" placeholder="Contraseña" required>
                 <i class="fa-solid fa-eye"></i>
                 </label>
-               <input type="submit" value="Ingresar" name="" class="boton">
+               <input type="submit" value="Ingresar" name="Validar" class="boton">
             </form>
         </div>
     </div>
 </body>
 </html>
+<?php
+    require '../../bd.php';
+    $conn=conectar_db();
+    session_start()
+    if(isset($_SESSION['numero_documento'])){
+        header("Location:../index.php");
+    }
+    if(!empty($_POST)){
+        $num_doc=$_POST['numero_documento'];
+        $contraseña=$_POST['contraseña'];
+
+        $num_doc=mysqli_real_escape_string($num_doc)
+    }
+?>
