@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Postulados</title>
+    <link rel="stylesheet" href="/assets/css/evaluar.css">
+</head>
+<body>
+    <header>
+        <a href="/index.html" class="logo-container">
+            <img class="logo" src="/assets/img/logos/logo-sena-blanco.png" alt="">
+        </a>
+        <nav class="menu">
+            <ul class="menu-principal" id="menu-principal">
+                <li><a href="">Candidatos</a></li>
+                <li><a href="/app/evaluador/vacantes.html">Vacantes</a></li>
+                <li><a href="">Criterios</a></li>
+                <li><a href="">Seleccionados</a></li>
+                <li><a href="/app/evaluador/moduloConsulta.html">Consulta</a></li>
+            </ul>
+        </nav>
+        <div class="actions">
+            <a href="/app/shareFolder/iniciarsesion.html" class="boton_ir">Iniciar sesión</a>
+            <button class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="contenedor">
+        <div class="infoVacante">
+            <div class="titulo">
+                <h1>Lista de Postulados</h1>
+            </div>
+            <div class="info">
+                <p class="ps"><strong>Vacantes:</strong> 2</p>
+                <p><strong>Postulados:</strong> 7</p>
+            </div>
+        </div>
+
+        <div class="info-container" id="infoContainer">
+            <p><strong>Codigo BANIN:</strong> 32926</p>
+            <p><strong>Codigo Contratación postulación APE:</strong> 29913</p>
+            <p><strong>Proyecto / Coordinación:</strong> SER</p>
+            <p><strong>Instructor Evaluador:</strong> Rodríguez Ruíz William Rolando</p>
+            <p><strong>PROGRAMA DE FORMACION :</strong> EMPRENDEDOR EN ALTERNATIVAS AGROPECUARIAS PARA UNA PRODUCCION SOSTENIBLE</p>
+        </div>
+        
+        <div class="perfilInstructor">
+            <h1 id="profileDescription" class="hidden" style="background-color: #f7f7f7;padding: 20px;border-radius: 8px;border: 1px solid #ccc;margin-bottom: 20px;grid-template-columns: 1fr;gap: 10px;">
+                Opción 1: título de profesional como médico veterinario, médico veterinario y zootecnista, zootecnista. 
+                Opción 2: tecnólogo y/o técnico en producción animal, producción agropecuaria. Experiencia laboral: 
+                experiencia comprobada en producción animal, sanidad animal, agroecología y/o desarrollo rural como mínimo 
+                6 meses en docencia y un año en el área.
+            </h1>
+        </div>
+
+        <p><strong>Perfil Vacante:</strong> 
+            <button class="perfil-btn" type="submit" id="toggleButton">Mostrar</button>
+        </p>
+        <div class="info-candidato" id="infocandidato" onclick="toggleInfo()">
+            <div class="info-hidden" id="infoHidden">
+                
+            </div>
+        </div>
+        
+
+        <div class="container">
+            <div class="ver-perExp">
+                <a class="fb" href="Perfil" id="openProfile">
+                    <button>Perfil</button>
+                </a>
+                <a class="tw" href="Experiencia" id="openExperience">
+                    <button>Experiencia</button>
+                </a>
+            </div>
+        </div>
+    
+        <div id="profileModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="Perfil">
+                    <h1>opción 1titulo de profesional comomédico veterinario, médico veterinario y zootecnista, zootecnista. 
+                        Opción 2tecnólogo y/o técnico enproducción animal, producción agropecuaria.</h1>
+                </div>
+            </div>
+        </div>
+    
+        <div id="experienceModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1 class="experiencia">Experiencia laboral: experiencia comprobada en producción animal, sanidad animal, agroecología y/o 
+                    desarrollo rural como mínimo 6 meses en docencia y un año en el área.</h1>
+            </div>
+        </div>
+        <form action="">
+
+        </form>
+
+    </div>
+
+    <footer>
+        <div>
+            <h1 class="tituloFooter">Nosotros</h1>
+        </div>
+    </footer>
+    <script src="/assets/js/header.js"></script>
+    <script src="/assets/js/ocultarInfo.js"></script>
+    <!-- <script src="/assets/js/ventana.js"></script> -->
+    <script src="/assets/js/mensajeEmergente.js"></script>
+</body>
+</html>

@@ -1,75 +1,32 @@
-#banner{
-    position: relative;
-    margin: auto;
+.contenedor {
     width: 100%;
+    max-width: 3200px;
+    margin: 0 auto;
 }
-.slider{
+
+/* Banner */
+
+
+.slider {
     margin: auto;
     position: relative;
-    top: 0px;
-    height: 578px;
+    top: 0;
+    height: 600px;
     overflow: hidden;
-    /*border: 15px solid white;
-    box-shadow: 0 10px 15px 10px #000000;*/
 }
-.section_caja{
+
+.section_caja {
     width: 100%;
 }
-.img_caja{
+
+.img_caja {
     display: block;
     width: 100%;
-    height: 100%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
 }
-.arrow{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 35%;
-    transform: translateY(50%);
-    line-height: 40px;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 50%;
-    font-family: monospace;
-    cursor: pointer;
-    margin: 16px;
-}
-.left{
-    left: 10px;
-}
-.right{
-    right: 10px;
-}
-.btn_atras,.btn_siguiente{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 35%;
-    transform: translateY(50%);
-    line-height: 40px;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 50%;
-    font-family: monospace;
-    cursor: pointer;
-    margin: 16px;
-}
-.btn_atras{
-    left: 10px;
-}
-.btn_siguiente{
-    right: 10px;
-}
-.texto {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.titulo{
+    background-color: #00ac00;
     color: white;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
 }
