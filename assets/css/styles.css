@@ -1,4 +1,5 @@
-@import "/css/shareInFolder/headerFooter.css";
-@import "/css/shareInFolder/home.css";
-@import "/css/shareInFolder/styleLogin.css";
-@import "/css/evaluador/styleConsulta.css";
+@import "shareInFolder/headerFooter.css";
+@import "shareInFolder/home.css";
+@import "shareInFolder/styleLogin.css";
+@import "evaluador/styleConsulta.css";
+@import "evaluador/stylelistCandidatos.css";

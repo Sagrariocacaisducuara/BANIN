@@ -5,34 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="icon" href="/imagenes/logosena.png">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="../../assets/img/logos/logosena.png">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
    
 </head>
 <body>
-    <header>
-        <a href="index.php"><img class="logo" src="/imagenes/logo-sena-blanco.png" alt=""></a> 
-           <nav class="menu">
-           <ul class="menu-principal">
-                <li><a href="">Candidatos</a></li>
-                <li><a href="BANIN/Evaluar/Evaluacion.php">Proceso de Evaluación</a></li>
-                <li><a href="">Criterios</a></li>
-                <li><a href="">Seleccionados</a></li>
-                <li><a href="/BANIN/evaluador/moduloConsulta.html">Consulta</a></li>
-            </ul>
-           </nav>
-           <a href="BANIN/iniciarsesion.php"><button class="boton_ir">Iniciar sesión</button></a>
-    </header>
-
-    <div class="contenedor">
+<header>
+<a href="../../index.php"><img class="logo" src="../../assets/img/logos/logo-sena-blanco.png" alt=""></a> 
+    <?php
+        require '../../assets/header.php';
+    ?>
+</header>
+    <div class="contenedor1">
         <div class="buscador">
             <h2>Buscador</h2>
             <form>
                 <label for="codigo">Buscar por código:</label>
-                <input type="text" id="codigo" name="codigo" placeholder="Ejemplo: 3453"><br><br>
+                <input type="text" id="codigo" class="codigo" name="codigo" placeholder="Ejemplo: 3453"><br><br>
 
                 <label for="documento">Buscar por número de documento:</label>
-                <input type="text" id="documento" name="documento" placeholder="Ejemplo: 1073672380"><br><br>
+                <input type="text" id="documento" name="documento" class="codigo" placeholder="Ejemplo: 1073672380"><br><br>
 
                 <button type="submit">Buscar</button>
             </form>

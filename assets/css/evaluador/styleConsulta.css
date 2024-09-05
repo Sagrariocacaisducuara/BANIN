@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-.contenedor {
+.contenedor1 {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
@@ -15,7 +15,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-
 /*estilo del formulario*/
 .buscador {
     margin-bottom: 20px;
@@ -31,7 +30,7 @@ label {
     margin-top: 10px;
 }
 
-input[type="text"] {
+input[type="text"].codigo{
     width: 100%;
     padding: 10px;
     margin: 5px 0;
