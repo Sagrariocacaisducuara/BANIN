@@ -1,28 +1,28 @@
-let isDragging = false;
-let offsetX, offsetY;
+var profileModal = document.getElementById("profileModal");
+var experienceModal = document.getElementById("experienceModal");
+var openProfileBtn = document.getElementById("openProfile");
+var openExperienceBtn = document.getElementById("openExperience");
+var closeButtons = document.getElementsByClassName("close");
 
-const infoCandidato = document.getElementById('infocandidato');
-const infoHidden = document.getElementById('infoHidden');
-
-// Función para mostrar/ocultar la información al hacer clic
-function toggleInfo() {
-    infoHidden.classList.toggle('show');
+openProfileBtn.onclick = function() {
+    profileModal.style.display = "block";
 }
 
-// Mover la "bolita" por la página
-infoCandidato.addEventListener('mousedown', function(e) {
-    isDragging = true;
-    offsetX = e.clientX - infoCandidato.offsetLeft;
-    offsetY = e.clientY - infoCandidato.offsetTop;
-});
+openExperienceBtn.onclick = function() {
+    experienceModal.style.display = "block";
+}
 
-document.addEventListener('mousemove', function(e) {
-    if (isDragging) {
-        infoCandidato.style.left = (e.clientX - offsetX) + 'px';
-        infoCandidato.style.top = (e.clientY - offsetY) + 'px';
+for (var i = 0; i < closeButtons.length; i++) {
+    closeButtons[i].onclick = function() {
+        this.closest(".modal").style.display = "none";
     }
-});
+}
 
-document.addEventListener('mouseup', function() {
-    isDragging = false;
-});
+window.onclick = function(event) {
+    if (event.target == profileModal) {
+        profileModal.style.display = "none";
+    }
+    if (event.target == experienceModal) {
+        experienceModal.style.display = "none";
+    }
+}
