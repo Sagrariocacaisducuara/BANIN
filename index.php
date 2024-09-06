@@ -40,8 +40,8 @@
         <div id="btn_atras" class="btn_atras">&#60;</div>
         <div id="btn_siguiente" class="btn_siguiente">&#62;</div>
         <script src="assets/JS/slider.js"></script>
-
-        <section class="boxes">
+    </div>
+    <section class="boxes">
         <div class="desc 1">
             <h2>Descripción del sistema</h2>
             <p>BANIN(Banco de Instructores) es una plataforma diseñada para facilitar la evaluación exhaustiva y objetiva de nuestros instructores. Permite a los evaluadores acceder a perfiles, realizar evaluaciones y generar informes detallados.</p>
@@ -60,7 +60,6 @@
             <button><a href="app/shareFolder/iniciarsesion.php">Acceder</a></button>
         </div>
         </section>
-    </div>
     <footer>
         <div class="social-buttons">
         <i class="fa-brands fa-facebook"><a href="#" target="_blank">Facebook</i></a>
@@ -71,6 +70,5 @@
         </div>
         <p>&copy; 2024 BANIN - SENA. Todos los derechos reservados.</p>
     </footer>
-
     </body>
     </html>

@@ -37,7 +37,7 @@
 </body>
 </html>
 <?php
-    require '../../bd.php';
+    /*require '../../bd.php';
     $conn=conectar_db();
     session_start()
     if(isset($_SESSION['numero_documento'])){
@@ -47,6 +47,6 @@
         $num_doc=$_POST['numero_documento'];
         $contraseña=$_POST['contraseña'];
 
-        $num_doc=mysqli_real_escape_string($num_doc)
-    }
+        $num_doc=mysqli_real_escape_string($num_doc);
+    }*/
 ?>
