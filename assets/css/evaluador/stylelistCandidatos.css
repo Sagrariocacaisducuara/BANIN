@@ -1,4 +1,4 @@
-/*.contenedor1 {
+.contenedor1 {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
@@ -8,7 +8,7 @@
 }
 /* Títulos */
 /* Estilo de las listas */
-/*.lista {
+.lista {
     display: flex;
     align-items: center;
     background-color: #fafafa;
@@ -18,7 +18,7 @@
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     justify-content: flex-start; /* Para asegurar que la imagen y los datos estén alineados */
-/*}
+}
 
 .foto {
     margin-right: 50px;
@@ -29,10 +29,10 @@
     height: 100px;
     border-radius: 50%;
     object-fit: cover; /* Asegura que la imagen se mantenga en proporción dentro del contenedor */
-/*}
+}
 
 /* Texto en la lista */
-/*.lista .datos {
+.lista .datos {
     display: flex;
     flex-direction: column;
 }
