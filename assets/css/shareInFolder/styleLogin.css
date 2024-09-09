@@ -14,7 +14,7 @@
 }
 header{
     display: flex;
-    background-color: #39A900;
+    background-color: #00ac00;
     justify-content: right;
     align-items: center;
     height: 65px;
@@ -103,8 +103,8 @@ a .boton_ir:hover {
     font-size: 15px;
 }
 .formulario label:focus-within {
-    border: 1px solid #39A900; /* Cambia el borde del label */
-    box-shadow: 0 0 5px rgba(57, 169, 0, 0.5); /* Agrega un efecto de sombra si lo deseas */
+    border: 1px solid #39A900;
+    box-shadow: 0 0 5px rgba(57, 169, 0, 0.5);
 }
 .formulario label i{
     color: #4b4b4b;

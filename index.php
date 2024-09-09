@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="assets/js/code.jquery.com_jquery-3.7.1.min.js"></script>
-    <link rel="icon" href="assets/img/logos/logoSena_2.png">
-    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>BANIN</title>
 </head>
 <body>
     <?php
-        require 'app/config.php';
 
-        require 'app/shareFolder/header.php';
+        require './app/config.php';
+
+        require './app/shareFolder/header.php';
     ?>
 
-    
+
+
     <div class="titulo">
         <h1>Sistema de Evaluación de Instructores</h1>
         <p>Herramienta integral para evaluar y potenciar habilidades de nuestros instructores</p>
@@ -27,7 +28,7 @@
                     <img src="assets/img/corporativas/InstructorSENA.jpg" alt="Instructor SENA" class="img_caja">
                 </section>
             </div>
-        </div>  
+        </div>
         </div>
         <section class="boxes">
         <div class="desc 1">
@@ -59,6 +60,5 @@
         <p>&copy; 2024 BANIN - SENA. Todos los derechos reservados.</p>
     </footer>
 
-    <script src="assets/js/header.js"></script>
 </body>
 </html>

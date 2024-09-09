@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="<?php echo BASE_URL; ?>assets/js/code.jquery.com_jquery-3.7.1.min.js"></script>
     <link rel="icon" href="<?php echo BASE_URL; ?>assets/img/logos/logoSena_2.png">
-    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/home.css">
+    <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/shareInFolder/headerFooter.css">
     <title>BANIN</title>
 </head>
 <body>
@@ -32,7 +32,6 @@
         </div>
     </header>
 
-    <script src="assets/js/header.js"></script>
-    <script src="assets/js/header.js"></script>
+    <script src="<?php echo BASE_URL; ?>assets/js/header.js"></script>
 </body>
 </html>

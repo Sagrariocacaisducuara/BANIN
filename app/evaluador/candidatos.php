@@ -108,6 +108,5 @@
         <button class="boton"><a href="">Evaluar</a></button>
         </div>
     </div>
-    <script src="../../assets/js/header.js"></script>
 </body>
 </html>

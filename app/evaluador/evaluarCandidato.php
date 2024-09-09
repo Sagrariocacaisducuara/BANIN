@@ -151,8 +151,6 @@
             <h1 class="tituloFooter">Nosotros</h1>
         </div>
     </footer>
-    <script src="../../assets/js/header.js"></script>
-    <script src="../../assets/js/header.js"></script>
     <script src="../../assets/js/ocultarInfo.js"></script>
     <script src="../../assets/js/mensajeEmergente.js"></script>
     <script src="../../assets/js/ventana.js"></script>

@@ -1,5 +1,11 @@
-@import "shareInFolder/headerFooter.css";
 @import "shareInFolder/home.css";
-@import "shareInFolder/styleLogin.css";
-@import "evaluador/styleConsulta.css";
-@import "evaluador/stylelistCandidatos.css";
+
+footer{
+    margin-top: 45px;
+    text-align: center;
+    font-size: 19px;
+    color: black;
+}
+footer a{
+    color: black;
+} 

@@ -5,16 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" href="../imagenes/logosena.png">
-    <link rel="stylesheet" href="../../assets/css/styles.css">
+    <link rel="icon" href="../../assets/img/logos/logosena.png">
+    <link rel="stylesheet" href="../../assets/css/login.css">
     <title>Inicio de Sesión SENA</title>
 </head>
 <body>
-<header>
-<a href="../../index.php"><img class="logo" src="../../assets/img/logos/logo-sena-blanco.png" alt=""></a> 
     <?php
-        require '../../assets/header.php';
+        require '../../app/config.php'; 
+        require 'header.php';
     ?>
-</header>
     <div class="contenedor2">
         <div class="imagen-contenedor"></div>
         <div class="formulario">

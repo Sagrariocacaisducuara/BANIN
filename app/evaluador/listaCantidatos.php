@@ -63,7 +63,7 @@
                         <input type="checkbox" name="evaluado1" style="accent-color: #00ac00;">
                     </td>
                     <td style="text-align: center;">
-                        <a href="/dashboard/banin2/BANIN_ProgAmbientes/app/evaluador/evaluarCandidato.php"><button class="perfil-btn" type="submit">Evaluar</button></a>
+                        <a href="/dashboard/BANIN_ProgAmbientes/app/evaluador/evaluarCandidato.php"><button class="perfil-btn" type="submit">Evaluar</button></a>
                     </td>
                 </tr>
                 <tr>
@@ -74,7 +74,7 @@
                         <input type="checkbox" name="evaluado1" style="accent-color: #00ac00;">
                     </td>
                     <td style="text-align: center;">
-                        <a href="/dashboard/banin2/BANIN_ProgAmbientes/app/evaluador/evaluarCandidato.php"><button class="perfil-btn" type="submit">Evaluar</button></a>
+                        <a href="/dashboard/BANIN_ProgAmbientes/app/evaluador/evaluarCandidato.php"><button class="perfil-btn" type="submit">Evaluar</button></a>
                     </td>
                 </tr>
                 <tr>
@@ -85,7 +85,7 @@
                         <input type="checkbox" name="evaluado1" style="accent-color: #00ac00;">
                     </td>
                     <td style="text-align: center;">
-                        <a href="/dashboard/banin2/BANIN_ProgAmbientes/app/evaluador/evaluarCandidato.php"><button class="perfil-btn" type="submit">Evaluar</button></a>
+                        <a href="/dashboard/BANIN_ProgAmbientes/app/evaluador/evaluarCandidato.php"><button class="perfil-btn" type="submit">Evaluar</button></a>
                     </td>
                 </tr>
                 <tr>
@@ -96,7 +96,7 @@
                         <input type="checkbox" name="evaluado1" style="accent-color: #00ac00;">
                     </td>
                     <td style="text-align: center;">
-                        <a href="/dashboard/banin2/BANIN_ProgAmbientes/app/evaluador/evaluarCandidato.php"><button class="perfil-btn" type="submit">Evaluar</button></a>
+                        <a href="/dashboard/BANIN_ProgAmbientes/app/evaluador/evaluarCandidato.php"><button class="perfil-btn" type="submit">Evaluar</button></a>
                     </td>
                 </tr>
             </tbody>
@@ -108,8 +108,6 @@
             <h1 class="tituloFooter">Nosotros</h1>
         </div>
     </footer>
-    <script src="../../assets/js/header.js"></script>
-    <script src="../../assets/js/header.js"></script>
     <script src="../../assets/js/ocultarInfo.js"></script>
 </body>
 </html>
