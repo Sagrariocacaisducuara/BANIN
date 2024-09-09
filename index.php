@@ -14,22 +14,19 @@
 
         require './app/shareFolder/header.php';
     ?>
-
-
-
-    <div class="titulo">
-        <h1>Sistema de Evaluación de Instructores</h1>
-        <p>Herramienta integral para evaluar y potenciar habilidades de nuestros instructores</p>
+    <hr class="linea">
+    <div id="banner">
+        <div class="titulo">
+            <h1>Sistema de Evaluación de Instructores</h1>
+            <p>Herramienta integral para evaluar y potenciar habilidades de nuestros instructores</p>
+        </div>
+        <section class="section_caja">
+            <img src="assets/img/corporativas/InstructorSENA.jpg" alt="Instructor SENA" class="img_caja">
+        </section>
     </div>
 
-    <div class="contenedor">
-        <div id="banner">
-                <section class="section_caja">
-                    <img src="assets/img/corporativas/InstructorSENA.jpg" alt="Instructor SENA" class="img_caja">
-                </section>
-            </div>
-        </div>
-        </div>
+        <hr class="linea">
+        
         <section class="boxes">
         <div class="desc 1">
             <h2>Descripción del sistema</h2>
@@ -49,13 +46,12 @@
             <button><a href="app/shareFolder/iniciarsesion.php">Acceder</a></button>
         </div>
         </section>
+    </div>
     <footer>
         <div class="social-buttons">
-        <i class="fa-brands fa-facebook"><a href="#" target="_blank">Facebook</i></a>
-        <i class="fa-brands fa-twitter"><a href="#" target="_blank">Twitter</a>
-        </i>
-        <i class="fa-brands fa-linkedin"><a href="#" target="_blank">Linkedin</a>
-        </i>
+            <i class="fa-brands fa-facebook"><a href="#" target="_blank">Facebook</i></a>
+            <i class="fa-brands fa-twitter"><a href="#" target="_blank">Twitter</a></i>
+            <i class="fa-brands fa-linkedin"><a href="#" target="_blank">Linkedin</a></i>
         </div>
         <p>&copy; 2024 BANIN - SENA. Todos los derechos reservados.</p>
     </footer>
