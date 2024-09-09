@@ -10,8 +10,11 @@
 </head>
 <body>
     <?php
+        require 'app/config.php';
+
         require 'app/shareFolder/header.php';
     ?>
+
     
     <div class="titulo">
         <h1>Sistema de Evaluación de Instructores</h1>

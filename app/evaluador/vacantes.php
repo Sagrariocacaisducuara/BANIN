@@ -11,118 +11,120 @@
 </head>
 <body>
     <?php
-     require '../../app/shareFolder/header.php';
+        require '../../app/config.php'; 
+        require '../../app/shareFolder/header.php';
     ?>
 
-<div class="contenedor">
 
-    <div class="container">
-        <h2>VACANTES ASIGNADAS</h2>
-        <div class="cards-container">
-            <div class="card">
-                <p><strong>Código:</strong> 30294</p>
-                <p><strong>Coordinación Inicial:</strong> Titulada</p>
-                <p><strong>Coordinación Final:</strong> Titulada</p>
-                <p><strong>Número de Aspirantes:</strong> 40</p>
-                <p><strong>Evaluados:</strong> 13</p>
-                <p><strong>Por Evaluar:</strong> 27</p>
-                <a href="listaCantidatos.html"><button>VER..</button></a>
+    <div class="contenedor">
+
+        <div class="container">
+            <h2>VACANTES ASIGNADAS</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <p><strong>Código:</strong> 30294</p>
+                    <p><strong>Coordinación Inicial:</strong> Titulada</p>
+                    <p><strong>Coordinación Final:</strong> Titulada</p>
+                    <p><strong>Número de Aspirantes:</strong> 40</p>
+                    <p><strong>Evaluados:</strong> 13</p>
+                    <p><strong>Por Evaluar:</strong> 27</p>
+                    <a href="listaCantidatos.html"><button>VER..</button></a>
+                    
+                </div>
+                <div class="card">
+                    <p><strong>Código:</strong> 30294</p>
+                    <p><strong>Coordinación Inicial:</strong> Titulada</p>
+                    <p><strong>Coordinación Final:</strong> Titulada</p>
+                    <p><strong>Número de Aspirantes:</strong> 40</p>
+                    <p><strong>Evaluados:</strong> 13</p>
+                    <p><strong>Por Evaluar:</strong> 27</p>
+                    <a href="./listaCantidatos.html"><button>VER..</button></a>
+                    
+                </div>
+                <div class="card">
+                    <p><strong>Código:</strong> 30294</p>
+                    <p><strong>Coordinación Inicial:</strong> Titulada</p>
+                    <p><strong>Coordinación Final:</strong> Titulada</p>
+                    <p><strong>Número de Aspirantes:</strong> 40</p>
+                    <p><strong>Evaluados:</strong> 13</p>
+                    <p><strong>Por Evaluar:</strong> 27</p>
+                    <a href="/app/evaluador/evaluarCandidato.html"><button>VER..</button></a>
+                    
+                </div>
+                <div class="card">
+                    <p><strong>Código:</strong> 30294</p>
+                    <p><strong>Coordinación Inicial:</strong> Titulada</p>
+                    <p><strong>Coordinación Final:</strong> Titulada</p>
+                    <p><strong>Número de Aspirantes:</strong> 40</p>
+                    <p><strong>Evaluados:</strong> 13</p>
+                    <p><strong>Por Evaluar:</strong> 27</p>
+                    <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
+                    
+                </div>
+                <div class="card">
+                    <p><strong>Código:</strong> 30294</p>
+                    <p><strong>Coordinación Inicial:</strong> Titulada</p>
+                    <p><strong>Coordinación Final:</strong> Titulada</p>
+                    <p><strong>Número de Aspirantes:</strong> 40</p>
+                    <p><strong>Evaluados:</strong> 13</p>
+                    <p><strong>Por Evaluar:</strong> 27</p>
+                    <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
+                    
+                </div>
+                <div class="card">
+                    <p><strong>Código:</strong> 30294</p>
+                    <p><strong>Coordinación Inicial:</strong> Titulada</p>
+                    <p><strong>Coordinación Final:</strong> Titulada</p>
+                    <p><strong>Número de Aspirantes:</strong> 40</p>
+                    <p><strong>Evaluados:</strong> 13</p>
+                    <p><strong>Por Evaluar:</strong> 27</p>
+                    <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
+                    
+                </div>
+                <div class="card">
+                    <p><strong>Código:</strong> 30294</p>
+                    <p><strong>Coordinación Inicial:</strong> Titulada</p>
+                    <p><strong>Coordinación Final:</strong> Titulada</p>
+                    <p><strong>Número de Aspirantes:</strong> 40</p>
+                    <p><strong>Evaluados:</strong> 13</p>
+                    <p><strong>Por Evaluar:</strong> 27</p>
+                    <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
+                    
+                </div>
+                <div class="card">
+                    <p><strong>Código:</strong> 30294</p>
+                    <p><strong>Coordinación Inicial:</strong> Titulada</p>
+                    <p><strong>Coordinación Final:</strong> Titulada</p>
+                    <p><strong>Número de Aspirantes:</strong> 40</p>
+                    <p><strong>Evaluados:</strong> 13</p>
+                    <p><strong>Por Evaluar:</strong> 27</p>
+                    <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
+                    
+                </div>
+                <div class="card">
+                    <p><strong>Código:</strong> 30294</p>
+                    <p><strong>Coordinación Inicial:</strong> Titulada</p>
+                    <p><strong>Coordinación Final:</strong> Titulada</p>
+                    <p><strong>Número de Aspirantes:</strong> 40</p>
+                    <p><strong>Evaluados:</strong> 13</p>
+                    <p><strong>Por Evaluar:</strong> 27</p>
+                    <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
+                    
+                </div>
+                <div class="card">
+                    <p><strong>Código:</strong> 30294</p>
+                    <p><strong>Coordinación Inicial:</strong> Titulada</p>
+                    <p><strong>Coordinación Final:</strong> Titulada</p>
+                    <p><strong>Número de Aspirantes:</strong> 40</p>
+                    <p><strong>Evaluados:</strong> 13</p>
+                    <p><strong>Por Evaluar:</strong> 27</p>
+                    <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
+                    
+                </div>
                 
             </div>
-            <div class="card">
-                <p><strong>Código:</strong> 30294</p>
-                <p><strong>Coordinación Inicial:</strong> Titulada</p>
-                <p><strong>Coordinación Final:</strong> Titulada</p>
-                <p><strong>Número de Aspirantes:</strong> 40</p>
-                <p><strong>Evaluados:</strong> 13</p>
-                <p><strong>Por Evaluar:</strong> 27</p>
-                <a href="./listaCantidatos.html"><button>VER..</button></a>
-                
-            </div>
-            <div class="card">
-                <p><strong>Código:</strong> 30294</p>
-                <p><strong>Coordinación Inicial:</strong> Titulada</p>
-                <p><strong>Coordinación Final:</strong> Titulada</p>
-                <p><strong>Número de Aspirantes:</strong> 40</p>
-                <p><strong>Evaluados:</strong> 13</p>
-                <p><strong>Por Evaluar:</strong> 27</p>
-                <a href="/app/evaluador/evaluarCandidato.html"><button>VER..</button></a>
-                
-            </div>
-            <div class="card">
-                <p><strong>Código:</strong> 30294</p>
-                <p><strong>Coordinación Inicial:</strong> Titulada</p>
-                <p><strong>Coordinación Final:</strong> Titulada</p>
-                <p><strong>Número de Aspirantes:</strong> 40</p>
-                <p><strong>Evaluados:</strong> 13</p>
-                <p><strong>Por Evaluar:</strong> 27</p>
-                <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
-                
-            </div>
-            <div class="card">
-                <p><strong>Código:</strong> 30294</p>
-                <p><strong>Coordinación Inicial:</strong> Titulada</p>
-                <p><strong>Coordinación Final:</strong> Titulada</p>
-                <p><strong>Número de Aspirantes:</strong> 40</p>
-                <p><strong>Evaluados:</strong> 13</p>
-                <p><strong>Por Evaluar:</strong> 27</p>
-                <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
-                
-            </div>
-            <div class="card">
-                <p><strong>Código:</strong> 30294</p>
-                <p><strong>Coordinación Inicial:</strong> Titulada</p>
-                <p><strong>Coordinación Final:</strong> Titulada</p>
-                <p><strong>Número de Aspirantes:</strong> 40</p>
-                <p><strong>Evaluados:</strong> 13</p>
-                <p><strong>Por Evaluar:</strong> 27</p>
-                <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
-                
-            </div>
-            <div class="card">
-                <p><strong>Código:</strong> 30294</p>
-                <p><strong>Coordinación Inicial:</strong> Titulada</p>
-                <p><strong>Coordinación Final:</strong> Titulada</p>
-                <p><strong>Número de Aspirantes:</strong> 40</p>
-                <p><strong>Evaluados:</strong> 13</p>
-                <p><strong>Por Evaluar:</strong> 27</p>
-                <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
-                
-            </div>
-            <div class="card">
-                <p><strong>Código:</strong> 30294</p>
-                <p><strong>Coordinación Inicial:</strong> Titulada</p>
-                <p><strong>Coordinación Final:</strong> Titulada</p>
-                <p><strong>Número de Aspirantes:</strong> 40</p>
-                <p><strong>Evaluados:</strong> 13</p>
-                <p><strong>Por Evaluar:</strong> 27</p>
-                <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
-                
-            </div>
-            <div class="card">
-                <p><strong>Código:</strong> 30294</p>
-                <p><strong>Coordinación Inicial:</strong> Titulada</p>
-                <p><strong>Coordinación Final:</strong> Titulada</p>
-                <p><strong>Número de Aspirantes:</strong> 40</p>
-                <p><strong>Evaluados:</strong> 13</p>
-                <p><strong>Por Evaluar:</strong> 27</p>
-                <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
-                
-            </div>
-            <div class="card">
-                <p><strong>Código:</strong> 30294</p>
-                <p><strong>Coordinación Inicial:</strong> Titulada</p>
-                <p><strong>Coordinación Final:</strong> Titulada</p>
-                <p><strong>Número de Aspirantes:</strong> 40</p>
-                <p><strong>Evaluados:</strong> 13</p>
-                <p><strong>Por Evaluar:</strong> 27</p>
-                <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
-                
-            </div>
-            
         </div>
     </div>
-</div>
     <footer>
         <div>
             <h1 class="tituloFooter">Nosotros</h1>
