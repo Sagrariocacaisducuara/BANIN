@@ -75,3 +75,5 @@ footer{
 footer a{
     color: black;
 } 
+@import "shareInFolder/headerFooter.css";
+@import "shareInFolder/home.css";

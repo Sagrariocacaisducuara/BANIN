@@ -1,47 +1,32 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
-        <script src="assets/JS/code.jquery.com_jquery-3.7.1.min.js"></script>
-        <link rel="icon" href="assets/img//logos/logosena.png">
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <title>BANIN</title>
-    </head>
-    <body>
-    <header>
-    <a href="index.php"><img class="logo" src="assets/img/logos/logo-sena-blanco.png" alt=""></a> 
-        <?php
-            require 'assets/header.php';
-        ?>
-    </header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <link rel="icon" href="assets/img/logos/logoSena_2.png">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <title>BANIN</title>
+</head>
+<body>
+    <?php
+        require 'app/shareFolder/header.php';
+    ?>
+    
+    <div class="titulo">
+        <h1>Sistema de Evaluación de Instructores</h1>
+        <p>Herramienta integral para evaluar y potenciar habilidades de nuestros instructores</p>
+    </div>
+
     <div class="contenedor">
         <div id="banner">
-        <div id="slider" class="slider">
-        <div id="caja" class="caja">
-        <section class="section_caja">
-        <div class="texto">
-            <h1>Sistema de Evaluación de Instructores</h1>
-            <p>Herramienta integral para evaluar y potenciar habilidades de nuestros instructores</p>
+                <section class="section_caja">
+                    <img src="assets/img/corporativas/InstructorSENA.jpg" alt="Instructor SENA" class="img_caja">
+                </section>
             </div>
-            <section class="section_caja">
-                <img src="assets/img/corporativas/Imagen.jpg" alt="" class="img_caja">
-            </section>
-            <img src="assets/img/corporativas/imagenfondo.jpg" class="img_caja" alt="">
-            </section>
-            <section class="section_caja">
-                <img src="assets/img/corporativas/instructorSENA.jpg" class="img_caja" alt="">
-            </section>
+        </div>  
         </div>
-        </div>
-        <!---<label for="r3" class="arrow left">&#10094;</label>
-        <label for="r2" class="arrow right">&#10095;</label>-->
-        <div id="btn_atras" class="btn_atras">&#60;</div>
-        <div id="btn_siguiente" class="btn_siguiente">&#62;</div>
-        <script src="assets/JS/slider.js"></script>
-    </div>
-    <section class="boxes">
+        <section class="boxes">
         <div class="desc 1">
             <h2>Descripción del sistema</h2>
             <p>BANIN(Banco de Instructores) es una plataforma diseñada para facilitar la evaluación exhaustiva y objetiva de nuestros instructores. Permite a los evaluadores acceder a perfiles, realizar evaluaciones y generar informes detallados.</p>
@@ -70,5 +55,7 @@
         </div>
         <p>&copy; 2024 BANIN - SENA. Todos los derechos reservados.</p>
     </footer>
-    </body>
-    </html>
+
+    <script src="assets/js/header.js"></script>
+</body>
+</html>
