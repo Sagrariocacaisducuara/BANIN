@@ -15,15 +15,15 @@
         </a>
         <nav class="menu">
             <ul class="menu-principal" id="menu-principal">
-                <li><a href="">Candidatos</a></li>
+                <li><a href="<?php echo BASE_URL; ?>app/evaluador/candidatos.php">Candidatos</a></li>
                 <li><a href="<?php echo BASE_URL; ?>app/evaluador/vacantes.php">Vacantes</a></li>
                 <li><a href="">Criterios</a></li>
                 <li><a href="">Seleccionados</a></li>
-                <li><a href="<?php echo BASE_URL; ?>app/evaluador/moduloConsulta.html">Consulta</a></li>
+                <li><a href="<?php echo BASE_URL; ?>app/evaluador/moduloConsulta.php">Consulta</a></li>
             </ul>
         </nav>
         <div class="actions">
-            <a href="<?php echo BASE_URL; ?>app/shareFolder/iniciarsesion.html" class="boton_ir">Iniciar sesión</a>
+            <a href="<?php echo BASE_URL; ?>app/shareFolder/iniciarsesion.php" class="boton_ir">Iniciar sesión</a>
             <button class="menu-toggle" id="menu-toggle">
                 <span></span>
                 <span></span>

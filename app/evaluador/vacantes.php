@@ -28,7 +28,7 @@
                     <p><strong>Número de Aspirantes:</strong> 40</p>
                     <p><strong>Evaluados:</strong> 13</p>
                     <p><strong>Por Evaluar:</strong> 27</p>
-                    <a href="listaCantidatos.html"><button>VER..</button></a>
+                    <a href="listaCantidatos.php"><button>VER..</button></a>
                     
                 </div>
                 <div class="card">
@@ -38,7 +38,7 @@
                     <p><strong>Número de Aspirantes:</strong> 40</p>
                     <p><strong>Evaluados:</strong> 13</p>
                     <p><strong>Por Evaluar:</strong> 27</p>
-                    <a href="./listaCantidatos.html"><button>VER..</button></a>
+                    <a href="./listaCantidatos.php"><button>VER..</button></a>
                     
                 </div>
                 <div class="card">
@@ -58,7 +58,7 @@
                     <p><strong>Número de Aspirantes:</strong> 40</p>
                     <p><strong>Evaluados:</strong> 13</p>
                     <p><strong>Por Evaluar:</strong> 27</p>
-                    <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
+                    <a href="/app/evaluador/listaCantidatos.php"><button>VER..</button></a>
                     
                 </div>
                 <div class="card">
@@ -68,7 +68,7 @@
                     <p><strong>Número de Aspirantes:</strong> 40</p>
                     <p><strong>Evaluados:</strong> 13</p>
                     <p><strong>Por Evaluar:</strong> 27</p>
-                    <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
+                    <a href="/app/evaluador/listaCantidatos.php"><button>VER..</button></a>
                     
                 </div>
                 <div class="card">
@@ -78,7 +78,7 @@
                     <p><strong>Número de Aspirantes:</strong> 40</p>
                     <p><strong>Evaluados:</strong> 13</p>
                     <p><strong>Por Evaluar:</strong> 27</p>
-                    <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
+                    <a href="/app/evaluador/listaCantidatos.php"><button>VER..</button></a>
                     
                 </div>
                 <div class="card">
@@ -88,7 +88,7 @@
                     <p><strong>Número de Aspirantes:</strong> 40</p>
                     <p><strong>Evaluados:</strong> 13</p>
                     <p><strong>Por Evaluar:</strong> 27</p>
-                    <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
+                    <a href="/app/evaluador/listaCantidatos.php"><button>VER..</button></a>
                     
                 </div>
                 <div class="card">
@@ -98,7 +98,7 @@
                     <p><strong>Número de Aspirantes:</strong> 40</p>
                     <p><strong>Evaluados:</strong> 13</p>
                     <p><strong>Por Evaluar:</strong> 27</p>
-                    <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
+                    <a href="/app/evaluador/listaCantidatos.php"><button>VER..</button></a>
                     
                 </div>
                 <div class="card">
@@ -108,7 +108,7 @@
                     <p><strong>Número de Aspirantes:</strong> 40</p>
                     <p><strong>Evaluados:</strong> 13</p>
                     <p><strong>Por Evaluar:</strong> 27</p>
-                    <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
+                    <a href="/app/evaluador/listaCantidatos.php"><button>VER..</button></a>
                     
                 </div>
                 <div class="card">
@@ -118,7 +118,7 @@
                     <p><strong>Número de Aspirantes:</strong> 40</p>
                     <p><strong>Evaluados:</strong> 13</p>
                     <p><strong>Por Evaluar:</strong> 27</p>
-                    <a href="/app/evaluador/listaCantidatos.html"><button>VER..</button></a>
+                    <a href="/app/evaluador/listaCantidatos.php"><button>VER..</button></a>
                     
                 </div>
                 

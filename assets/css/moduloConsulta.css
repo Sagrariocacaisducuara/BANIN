@@ -1,3 +1,4 @@
-@import "/assets/css/evaluador/consulta.css";
-@import "/assets/css/shareInFolder/headerFooter.css";
-@import "/assets/css/shareInFolder/bodyBoton.css";
+@import url("shareInFolder/headerFooter.css");
+@import url("shareInFolder/bodyBoton.css");
+@import url("evaluador/consulta.css");
+

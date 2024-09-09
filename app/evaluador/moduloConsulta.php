@@ -4,34 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="icon" href="assets/img/logos/logoSena_2.png">
-    <link rel="stylesheet" href="/assets/css/moduloConsulta.css">
-   
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../../assets/css/moduloConsulta.css">
 </head>
 <body>
-    <header>
-        <a href="/index.html" class="logo-container">
-            <img class="logo" src="/assets/img/logos/logo-sena-blanco.png" alt="">
-        </a>
-        <nav class="menu">
-            <ul class="menu-principal" id="menu-principal">
-                <li><a href="">Candidatos</a></li>
-                <li><a href="/app/evaluador/vacantes.html">Vacantes</a></li>
-                <li><a href="">Criterios</a></li>
-                <li><a href="">Seleccionados</a></li>
-                <li><a href="/app/evaluador/moduloConsulta.html">Consulta</a></li>
-            </ul>
-        </nav>
-        <div class="actions">
-            <a href="/app/shareFolder/iniciarsesion.html" class="boton_ir">Iniciar sesión</a>
-            <button class="menu-toggle" id="menu-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </header>
+
+    <?php
+        require '../../app/config.php'; 
+        require '../../app/shareFolder/header.php';
+    ?>
 
     <div class="contenedor">
         <div class="buscador">
@@ -92,6 +73,6 @@
             <h1 class="tituloFooter">Nosotros</h1>
         </div>
     </footer>
-    <script src="/assets/js/header.js"></script>
+    <script src="../../assets/js/header.js"></script>
 </body>
 </html>

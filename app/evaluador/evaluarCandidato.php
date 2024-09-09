@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Postulados</title>
-    <link rel="stylesheet" href="assets/css/evaluar.css">
+    <link rel="icon" href="../../assets/img/logos/logosena.png">
+    <link rel="stylesheet" href="../../assets/css/evaluar.css">
 </head>
 <body>
     <?php
-        require 'app/shareFolder/header.php';
+        require '../../app/config.php'; 
+        require '../../app/shareFolder/header.php';
     ?>
 
     <div class="contenedor">
@@ -149,9 +151,10 @@
             <h1 class="tituloFooter">Nosotros</h1>
         </div>
     </footer>
-    <script src="assets/js/header.js"></script>
-    <script src="assets/js/ocultarInfo.js"></script>
-    <script src="assets/js/mensajeEmergente.js"></script>
-    <script src="assets/js/ventana.js"></script>
+    <script src="../../assets/js/header.js"></script>
+    <script src="../../assets/js/header.js"></script>
+    <script src="../../assets/js/ocultarInfo.js"></script>
+    <script src="../../assets/js/mensajeEmergente.js"></script>
+    <script src="../../assets/js/ventana.js"></script>
 </body>
 </html>

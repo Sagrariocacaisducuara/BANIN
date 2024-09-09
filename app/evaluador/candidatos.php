@@ -8,11 +8,11 @@
     <title>Candidatos asignados</title>
 </head>
 <body>
-<header>
-    <a href="index.php"><img class="logo" src="../../assets/img/logos/logo-sena-blanco.png" alt=""></a> 
-    <?php require '../../assets/header.php';
+    <?php
+        require '../../app/config.php'; 
+        require '../../app/shareFolder/header.php';
     ?>
-</header>
+
     <div class="contenedor1">
         <h2>Candidatos asignados</h1>
     <div class="lista">
@@ -108,5 +108,6 @@
         <button class="boton"><a href="">Evaluar</a></button>
         </div>
     </div>
+    <script src="../../assets/js/header.js"></script>
 </body>
 </html>

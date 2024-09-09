@@ -4,31 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Postulados</title>
-    <link rel="stylesheet" href="/assets/css/listaCandidatos.css">
+    <link rel="icon" href="../../assets/img/logos/logosena.png">
+    <link rel="stylesheet" href="../../assets/css/listaCandidatos.css">
 </head>
 <body>
-    <header>
-        <a href="/index.html" class="logo-container">
-            <img class="logo" src="/assets/img/logos/logo-sena-blanco.png" alt="">
-        </a>
-        <nav class="menu">
-            <ul class="menu-principal" id="menu-principal">
-                <li><a href="">Candidatos</a></li>
-                <li><a href="/app/evaluador/vacantes.html">Vacantes</a></li>
-                <li><a href="">Criterios</a></li>
-                <li><a href="">Seleccionados</a></li>
-                <li><a href="/app/evaluador/moduloConsulta.html">Consulta</a></li>
-            </ul>
-        </nav>
-        <div class="actions">
-            <a href="/app/shareFolder/iniciarsesion.html" class="boton_ir">Iniciar sesión</a>
-            <button class="menu-toggle" id="menu-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-    </header>
+    <?php
+        require '../../app/config.php'; 
+        require '../../app/shareFolder/header.php';
+    ?>
 
     <div class="contenedor">
         <div class="infoVacante">
@@ -80,7 +63,7 @@
                         <input type="checkbox" name="evaluado1" style="accent-color: #00ac00;">
                     </td>
                     <td style="text-align: center;">
-                        <a href="/app/evaluador/evaluarCandidato.html"><button class="perfil-btn" type="submit">Evaluar</button></a>
+                        <a href="/dashboard/banin2/BANIN_ProgAmbientes/app/evaluador/evaluarCandidato.php"><button class="perfil-btn" type="submit">Evaluar</button></a>
                     </td>
                 </tr>
                 <tr>
@@ -91,7 +74,7 @@
                         <input type="checkbox" name="evaluado1" style="accent-color: #00ac00;">
                     </td>
                     <td style="text-align: center;">
-                        <a href="/app/evaluador/evaluarCandidato.html"><button class="perfil-btn" type="submit">Evaluar</button></a>
+                        <a href="/dashboard/banin2/BANIN_ProgAmbientes/app/evaluador/evaluarCandidato.php"><button class="perfil-btn" type="submit">Evaluar</button></a>
                     </td>
                 </tr>
                 <tr>
@@ -102,7 +85,7 @@
                         <input type="checkbox" name="evaluado1" style="accent-color: #00ac00;">
                     </td>
                     <td style="text-align: center;">
-                        <a href="/app/evaluador/evaluarCandidato.html"><button class="perfil-btn" type="submit">Evaluar</button></a>
+                        <a href="/dashboard/banin2/BANIN_ProgAmbientes/app/evaluador/evaluarCandidato.php"><button class="perfil-btn" type="submit">Evaluar</button></a>
                     </td>
                 </tr>
                 <tr>
@@ -113,7 +96,7 @@
                         <input type="checkbox" name="evaluado1" style="accent-color: #00ac00;">
                     </td>
                     <td style="text-align: center;">
-                        <a href="/app/evaluador/evaluarCandidato.html"><button class="perfil-btn" type="submit">Evaluar</button></a>
+                        <a href="/dashboard/banin2/BANIN_ProgAmbientes/app/evaluador/evaluarCandidato.php"><button class="perfil-btn" type="submit">Evaluar</button></a>
                     </td>
                 </tr>
             </tbody>
@@ -125,7 +108,8 @@
             <h1 class="tituloFooter">Nosotros</h1>
         </div>
     </footer>
-    <script src="/assets/js/header.js"></script>
-    <script src="/assets/js/ocultarInfo.js"></script>
+    <script src="../../assets/js/header.js"></script>
+    <script src="../../assets/js/header.js"></script>
+    <script src="../../assets/js/ocultarInfo.js"></script>
 </body>
 </html>
