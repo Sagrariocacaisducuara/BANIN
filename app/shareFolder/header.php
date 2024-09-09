@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> <!-- Verificar la ruta de jQuery -->
-    <link rel="icon" href="assets/img/logos/logoSena_2.png"> <!-- Verificar la ruta del favicon -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> 
+    <link rel="icon" href="assets/img/logos/logoSena_2.png">
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/home.css">
     <title>BANIN</title>
@@ -12,7 +12,7 @@
 <body>
     <header>
         <a href="index.php" class="logo-container">
-            <img class="logo" src="assets/img/logos/logo-sena-blanco.png" alt=""> <!-- Verificar la ruta del logo -->
+            <img class="logo" src="assets/img/logos/logo-sena-blanco.png" alt=""> 
         </a>
         <nav class="menu">
             <ul class="menu-principal" id="menu-principal">
