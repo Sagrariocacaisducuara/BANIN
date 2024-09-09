@@ -17,7 +17,7 @@
         <nav class="menu">
             <ul class="menu-principal" id="menu-principal">
                 <li><a href="">Candidatos</a></li>
-                <li><a href="app/evaluador/vacantes.html">Vacantes</a></li>
+                <li><a href="app/evaluador/vacantes.php">Vacantes</a></li>
                 <li><a href="">Criterios</a></li>
                 <li><a href="">Seleccionados</a></li>
                 <li><a href="app/evaluador/moduloConsulta.html">Consulta</a></li>
