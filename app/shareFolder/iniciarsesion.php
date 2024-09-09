@@ -37,16 +37,20 @@
 </body>
 </html>
 <?php
-    /*require '../../bd.php';
-    $conn=conectar_db();
-    session_start()
-    if(isset($_SESSION['numero_documento'])){
-        header("Location:../index.php");
-    }
-    if(!empty($_POST)){
-        $num_doc=$_POST['numero_documento'];
-        $contraseña=$_POST['contraseña'];
-
-        $num_doc=mysqli_real_escape_string($num_doc);
-    }*/
+   require_once('class.php');
+   session_start();
+   if(isset($_SESSION['rol']) && isset($_SESSION['numero_documento'])){
+       header("Location:vercuenta.php");
+   }
+   else{
+       header("../../index.php");
+   }
+   
+   if (isset($_POST['Validar'])){
+       $numero=$_POST['numero_doc'];
+       $contraseña=$_POST['contraseña'];
+       $trabajo=new Trabajo();
+       $datos=$trabajo->iniciarSesion($numero, $contraseña);
+   }
+   
 ?>

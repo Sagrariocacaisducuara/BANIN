@@ -4,7 +4,7 @@
     <li><a href="">Proceso de Evaluación</a></li>
     <li><a href="">Criterios</a></li>
     <li><a href="">Seleccionados</a></li>
-    <li><a href="app/evaluador/moduloConsulta.php">Consulta</a></li>
+    <li><a href="app/evaluador/moduloConsulta.html">Consulta</a></li>
 </ul>
 </nav>
 <a href="app/shareFolder/iniciarsesion.php"><button class="boton_ir">Iniciar sesión</button></a>
